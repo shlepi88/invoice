@@ -1,0 +1,147 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body, html {
+    margin-left: auto;
+    margin-right: auto;
+    height: 100vh;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #404040;
+}
+
+.container {
+    width: 800px;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: #fff;
+}
+
+.header {
+    display: flex;
+}
+
+.header img {
+    height: 100px; width: 200px;
+    margin-left: 10px;
+    margin-right: 50px;
+    margin-top: auto;
+    margin-bottom: auto;
+}
+
+.info {
+    background-color: #e7e7e8;
+    height: 100px; width: 100%;
+    border-top-left-radius: 100px;
+    border-bottom-left-radius: 100px;
+    display: flex;
+    margin: auto;
+    text-align: center;
+}
+
+.info-tab {
+    height: 150px; width: 150px;
+    margin: auto;
+    font-size: 12px;
+    padding-top: 20px;
+}
+
+.fa {
+    font-size: 30px;
+}
+
+.wrapper {
+    width: 90%;
+    margin-right: auto;
+    margin-left: auto;
+    margin-top: 10px;
+}
+
+.wrapper h1 {
+    font-size: 40px;
+}
+
+.invoice h2 {
+    font-size: 25px;
+}
+
+.account {
+    float: right;
+    margin-top: -140px;
+    display: block;
+}
+
+.account h4 {
+    float: right;
+}
+
+.account p {
+    line-height: 30px;
+    float: right;
+}
+
+table {
+    font-family: arial, sans-serif;
+    border-collapse: collapse;
+    width: 100%;
+    margin-top: 10px;
+    margin-bottom: 30px;
+}
+
+#first-tr {
+    text-align: center;
+    font-size: 23px;
+    background-color: #bcd2d9;
+    height: 60px; width: 100%;
+}
+
+td {
+    height: 50px;
+    line-height: 20px;
+    font-size: 12px;
+    text-align: center;
+    border-bottom: 1px solid #000;
+}
+
+.left-td {
+    text-align: left;
+}
+
+table h2 {
+    font-weight: 200;
+}
+
+.total {
+    border: none;
+    height: 35px;
+}
+
+.grand-total {
+    background-color: #bcd2d9;
+}
+
+.grand-total h2 {
+    font-weight: 700;
+}
+
+.pavment {
+    margin-top: -120px;
+}
+
+.terms {
+    width: 400px;
+    margin-top: 20px;
+}
+
+.thanks {
+    margin-top: 20px;
+}
+
+.signature {
+    float: right;
+    margin-top: -90px;
+}
